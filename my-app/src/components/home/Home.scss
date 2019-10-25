@@ -1,0 +1,18 @@
+.menu {
+    width: 100%;
+    position: fixed;
+    background-color: blueviolet;
+    list-style: none;
+    display: flex;
+        li {
+            font: 1.3em monospace;
+            color: wheat;
+            border: 2px solid wheat;
+            border-radius: 5px;
+            padding: 5px;
+            margin: 5px;
+        }
+}
+
+
+
