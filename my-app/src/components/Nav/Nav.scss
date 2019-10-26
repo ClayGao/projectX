@@ -1,18 +1,79 @@
-.menu {
+nav {
     width: 100%;
     position: fixed;
-    background-color: blueviolet;
-    list-style: none;
-    display: flex;
-        li {
-            font: 1.3em monospace;
-            color: wheat;
-            border: 2px solid wheat;
+    .nav-bar {
+        position: relative;
+        width: 100%;
+        list-style: none;
+            &-homepage {
+                padding: 25px;
+                &-first {
+                    font: 2em monospace;
+                }
+                &-second {
+                    font: 3em monospace;
+                }
+            }
+            &-media {
+                position: absolute;
+                padding: 15px;
+                right: 15px;
+                top: 5px;
+                display: flex;
+                li~li {
+                    margin-left: 10px;
+                }
+            }
+            &-shoppingcart {
+                position: absolute;
+                padding: 15px;
+                right: 15px;
+                bottom: 5px;
+                display: flex;
+                li~li {
+                    margin-left: 10px;
+                }
+            }
+    }
+    .nav-menu {
+        margin: 15px 0;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        .nav-menu-bottom {
+            list-style:none;
+            border: 2px solid rgb(54, 52, 49);
             border-radius: 5px;
             padding: 5px;
             margin: 5px;
+            a {
+                font: 1.3em monospace;
+                text-decoration: none;
+                &:visited {
+                    color: rgb(41, 39, 36);
+                }
+            }
+            &-active {
+                border: 2px solid rgb(54, 52, 49);
+                border-radius: 5px;
+                padding: 5px;
+                margin: 5px;
+                list-style:none;
+                a {
+                    font: 1.3em monospace;
+                    text-decoration: none;
+                    &:visited {
+                        color: rgb(219, 92, 53);
+                    }
+                }
+            }
         }
+    }
+    hr {
+        margin: 5px 20px;
+    }
 }
+
 
 
 
