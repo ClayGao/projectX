@@ -1,17 +1,13 @@
-.menu {
+.homepage {
+    margin: 0 auto;
     width: 100%;
-    position: fixed;
-    background-color: blueviolet;
-    list-style: none;
-    display: flex;
-        li {
-            font: 1.3em monospace;
-            color: wheat;
-            border: 2px solid wheat;
-            border-radius: 5px;
-            padding: 5px;
-            margin: 5px;
-        }
+    height: 1000px;
+    background-color: rgb(70, 66, 66);
+    &-news {
+        width: 100%;
+        height: 500px;
+        background-color: goldenrod;
+    }
 }
 
 

@@ -1,6 +1,9 @@
 nav {
+    z-index: 1;
     width: 100%;
     position: fixed;
+    top:0px;
+    background-color: #fff;
     .nav-bar {
         position: relative;
         width: 100%;
@@ -21,7 +24,7 @@ nav {
                 top: 5px;
                 display: flex;
                 li~li {
-                    margin-left: 10px;
+                    margin-left: 15px;
                 }
             }
             &-shoppingcart {
@@ -31,7 +34,7 @@ nav {
                 bottom: 5px;
                 display: flex;
                 li~li {
-                    margin-left: 10px;
+                    margin-left: 15px;
                 }
             }
     }

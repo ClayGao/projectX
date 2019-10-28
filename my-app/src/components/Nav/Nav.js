@@ -23,22 +23,22 @@ const Nav = props => {
                     <div className="nav-bar-homepage-second">Wardrobe</div>
                 </div>
                 <div className="nav-bar-media">
-                    <li>IG</li>
-                    <li>FB</li>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
                     <li>Line</li>
                 </div>
                 <div className="nav-bar-shoppingcart">
-                    <li>LOGIN</li>
-                    <li>MYPAGE</li>
-                    <li>WISHLIST</li>
-                    <li>CART</li>
+                    <li>Login</li>
+                    <li>Mypage</li>
+                    <li>WishList</li>
+                    <li>Cart</li>
                 </div>
             </div>
             <hr />
             <div className="nav-menu">
                 <Tab to="/" exact label="Home" />
-                <Tab to="/about" label="about" />
-                <Tab to="/jacket" label="jacket" />
+                <Tab to="/jacket" label="Jacket" />
+                <Tab to="/pants" label="Pants" />
             </div>
         </nav>
     )

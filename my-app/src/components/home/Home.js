@@ -4,7 +4,14 @@ import './Home.scss';
 
 const Home = props => {
     return (
-        <div></div>
+        <div className="homepage">
+            <div className="homepage-news">
+                
+            </div>
+            <div className="homepage-about">
+                
+            </div>
+        </div>
     )
 }
 
