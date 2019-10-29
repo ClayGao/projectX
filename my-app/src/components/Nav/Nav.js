@@ -28,7 +28,7 @@ const Nav = props => {
                     <li>Line</li>
                 </div>
                 <div className="nav-bar-shoppingcart">
-                    <li>Login</li>
+                    <li><Link to="/login">Login</Link></li>
                     <li>Mypage</li>
                     <li>WishList</li>
                     <li>Cart</li>
