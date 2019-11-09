@@ -4,6 +4,7 @@ import './App.scss';
 import Nav from './components/nav'
 import Home from './components/home'
 import Login from './components/login'
+import Jacket from './components/jacket'
 
 //TODO: 刻前端
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/login" component={Login} />
+          <Route path="/jacket" component={Jacket} />
         </Switch>
       </div>
       <div className="footer">
