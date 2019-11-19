@@ -1,10 +1,11 @@
 .production {
     margin: 0 auto;
     //width: 100%;
+    min-height: 800px;
     height: auto;
     background-color: rgb(70, 66, 66);
     display: flex;
-    justify-content: start;
+    justify-content: center;
     flex-wrap: wrap;
     &-card {
         margin: 3px;
@@ -32,6 +33,10 @@
                 height: 50%;
                 float: right;
                 margin: 5px 8px;
+                &::before {
+                    content: "$";
+                    font-weight: bold;
+                }
             }
         }
     }

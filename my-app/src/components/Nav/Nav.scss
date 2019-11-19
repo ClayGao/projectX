@@ -65,8 +65,9 @@ nav {
                 a {
                     font: 1.3em monospace;
                     text-decoration: none;
+                    //TODO: 待修
                     &:visited {
-                        color: rgb(219, 92, 53);
+                        color: rgb(219, 92, 53); 
                     }
                 }
             }

@@ -1,0 +1,56 @@
+.userinfo-page {
+    margin: 0 auto;
+    min-height: 650px;
+    background-color: rgb(70, 66, 66);
+    display: flex;
+    justify-content: center;
+    &__siderbar {
+        width: 200px;
+        list-style: none;
+        li {
+            margin: 20px;
+            margin-bottom: 10px;
+            font: 1.4em monospace;
+            font-weight: bolder;
+            &~li {
+                margin-top: 10px; 
+            }
+            a {
+                color: wheat;
+                text-decoration: none;
+                
+                &:visited {
+                   color: wheat;
+                }
+            }
+        }
+    }
+    &__content {
+        min-width: 800px;
+        width: auto;
+        background-color: red;
+    }
+}
+
+/* --- shopping cart --- */
+
+.shopping-cart {
+    height: 100vh;
+    margin:20px;
+    background-color: pink;
+    border-radius: 10px;
+    &__item {
+        height: 80px;
+        width: 200px;
+        display: flex;
+        &__photo {
+            
+        }
+        &__name {
+
+        }
+        &__price {
+
+        }
+    }
+}

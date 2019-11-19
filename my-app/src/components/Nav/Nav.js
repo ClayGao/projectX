@@ -29,7 +29,7 @@ const Nav = props => {
                 </div>
                 <div className="nav-bar-shoppingcart">
                     <li><Link to="/login">Login</Link></li>
-                    <li>Mypage</li>
+                    <li><Link to="/mypage">My page</Link></li>
                     <li>WishList</li>
                     <li>Cart</li>
                 </div>
